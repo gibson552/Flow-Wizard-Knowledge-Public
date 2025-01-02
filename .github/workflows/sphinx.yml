@@ -1,26 +1,29 @@
-name: "Sphinx: Render docs"
+name: Deploy to GitHub Pages
 
-on: push
+on:
+  push:
+    branches:
+      - main  # Adjust this to your default branch
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-    - uses: actions/checkout@v4
+    - name: Check out the repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        persist-credentials: false
-    - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: html-docs
-        path: docs/build/html/
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs/build/html
+        python-version: "3.x"
+
+    - name: Install dependencies
+      run: |
+        pip install sphinx pydata-sphinx-theme ghp-import
+
+    - name: Build the documentation
+      run: make html
+
+    - name: Deploy to GitHub Pages
+      run: ghp-import -n -p -f build/html
