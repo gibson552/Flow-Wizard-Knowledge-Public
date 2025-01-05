@@ -50,6 +50,6 @@ A Bar Chart visual based on the given inputs. It will generate a new tab display
    | 8/2/2024   | USA     | 950  | 1050    |
    +------------+---------+------+---------+
 
-.. image:: /images/bar_chart.png
+.. image:: C:\Users\pajjo\Desktop\Flow-Wizard-Knowledge\source\function_guide\visualizations\images\bar_chart.png
    :width: 600px
    :alt: After

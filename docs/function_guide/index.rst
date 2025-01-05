@@ -16,7 +16,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Analytical
            </h3>
            <p>Functions for statistical and analytical calculations.</p>
-           <a href="analytical/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/analytical/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -25,7 +25,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Arithmetic
            </h3>
            <p>Functions for performing arithmetic operations.</p>
-           <a href="arithmetic/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/arithmetic/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -34,7 +34,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Data Input
            </h3>
            <p>Functions for loading and managing input data.</p>
-           <a href="data_input/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/data_input/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -43,7 +43,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Data Output
            </h3>
            <p>Functions for saving and visualizing processed data.</p>
-           <a href="data_output/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/data_output/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -52,7 +52,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Data Prep
            </h3>
            <p>Functions for cleaning and preparing data for analysis.</p>
-           <a href="data_prep/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/data_prep/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -61,7 +61,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Date Time
            </h3>
            <p>Functions for handling dates and times efficiently.</p>
-           <a href="date_time/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/date_time/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -70,7 +70,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Logical
            </h3>
            <p>Functions for logical operations and conditions.</p>
-           <a href="logical/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/logical/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -79,7 +79,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                ML & AL
            </h3>
            <p>Functions for Machine Learning and Artificial Learning tasks.</p>
-           <a href="ml_al/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/ml_al/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: 30%; text-align: center; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
@@ -88,7 +88,7 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
                Visualizations
            </h3>
            <p>Functions for creating charts, graphs, and other visualizations.</p>
-           <a href="visualizations/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
+           <a href="function_guide/visualizations/index.html" style="text-decoration: none; color: white; background-color: #0078d4; padding: 10px 20px; border-radius: 5px;">View Functions</a>
        </div>
 
    </div>
@@ -97,12 +97,12 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
    :maxdepth: 2
    :hidden:
 
-   analytical/index
-   arithmetic/index
-   data_input/index
-   data_output/index
-   data_prep/index
-   date_time/index
-   logical/index
-   ml_al/index
-   visualizations/index
+   function_guide/analytical/index
+   function_guide/arithmetic/index
+   function_guide/data_input/index
+   function_guide/data_output/index
+   function_guide/data_prep/index
+   function_guide/date_time/index
+   function_guide/logical/index
+   function_guide/ml_al/index
+   function_guide/visualizations/index

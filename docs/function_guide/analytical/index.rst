@@ -1,8 +1,9 @@
 Analytical
 ==========
+
 .. toctree::
    :maxdepth: 1
-   :caption: Functions:
+   :caption: Analytical Functions:
 
    averageifs
    bottom_k_values
@@ -20,6 +21,8 @@ Analytical
    pivot_table
    rank_by_group
    rank_column
+   read_csv
+   read_excel
    standard_dev
    sumifs
    top_k_values

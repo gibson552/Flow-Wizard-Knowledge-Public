@@ -123,5 +123,12 @@ Welcome to the Function Guide. Explore the functions categorized into the follow
    :maxdepth: 2
    :hidden:
 
-   function_guide/index
-   examples/index
+   function_guide/analytical/index
+   function_guide/arithmetic/index
+   function_guide/data_input/index
+   function_guide/data_output/index
+   function_guide/data_prep/index
+   function_guide/date_time/index
+   function_guide/logical/index
+   function_guide/ml_al/index
+   function_guide/visualizations/index

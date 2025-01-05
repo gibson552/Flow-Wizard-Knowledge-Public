@@ -3,6 +3,7 @@ Data Prep
 
 .. toctree::
    :maxdepth: 1
+   :caption: Data Prep Functions:
 
    absolute
    append
