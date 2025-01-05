@@ -14,7 +14,7 @@ Returns the minimum value for the select column.
 **Parameters:**
 
 - *Table:* Table name on which to perform function
-- *Column (col):* Column to perform Min
+- *Column:* Column to perform Min
 - *New Column Name:* Name for new column
 
 **Example:**

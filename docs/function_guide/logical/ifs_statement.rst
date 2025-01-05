@@ -1,32 +1,69 @@
-If(s) Statement
-===============
+IFs
+===
 
 **Description:**
 
-An If(s) statement that will perform logical checks on a data table and create a new column based on the specified conditions.
+Make logical comparisons between a value and what you expect. This function allows for complex logical evaluations where multiple conditions can be chained together.
 
 **Function:**
 
 .. code-block:: python
 
-    Ifs(table = string, new_col = string, if_statement = string)
+    Ifs(table = string, if_statement = {if = {col = string, logical_choice = string, value = string}, then = string}, else_value = string, new_col = string)
 
 **Parameters:**
 
 - *Table:* Table name on which to perform the function
-- *New Column Name:* The name for the new column that will store the result of the If(s) statement
-- *Ifs Statement:* The logical statement to evaluate, where column names are formatted as `['column name']`
+- *Ifs Statement:* Logical statement to evaluate, can contain multiple conditions
+    - *Column:* The column to evaluate
+    - *Logical Selection:* The method to evaluate the column (e.g., "Equals", "Greater than", "Is before date")
+    - *Value:* The value to compare in the column based on the logical selection (e.g., X = Y)
+    - *Then:* The value to return if the condition is met
+    - *Else:* The value to return if none of the conditions are met
+- *New Column Name:* The name for the new column that will store the result of the logical evaluation
 
 **Example:**
 
 .. code-block:: python
 
-    Ifs(table = Budget5567, new_col = "Updated Stage",
-        if_statement = """
-        if ['Stage'] == 'Closed Won':
-            return 'Won'
-        if ['Stage'] == 'Lost':
-            return 'Lost'
-        else:
-            return 'Do not care'
-        """)
+    Ifs(table = Budget,
+        if_statement = {
+            if = {col = "Geo", logical_choice = "Equals", value = "USA", if_group_logic = "And", col = "Segment", logical_choice = "Equals", value = "Enterprise"},
+            then = "Upmarket"
+        },
+        else_value = "Small Business",
+        new_col = "Ifs statement")
+
+.. table:: Before
+
+   +----------------+------+------------+
+   | Company        | Geo  | Segment    |
+   +================+======+============+
+   | QuantumLeap    | OSA  | Enterprise |
+   +----------------+------+------------+
+   | NebulaTech     | USA  | SMB        |
+   +----------------+------+------------+
+   | Eclipse Ent.   | USA  | Enterprise |
+   +----------------+------+------------+
+   | GalacticCorp   | LATAM| SMB        |
+   +----------------+------+------------+
+   | Starforge      | LATAM| Middle Ma. |
+   +----------------+------+------------+
+
+.. table:: After
+
+   +----------------+------+------------+---------------+
+   | Company        | Geo  | Segment    | Ifs Statement |
+   +================+======+============+===============+
+   | QuantumLeap    | USA  | Enterprise | Upmarket      |
+   +----------------+------+------------+---------------+
+   | NebulaTech     | USA  | SMB        | Small Business|
+   +----------------+------+------------+---------------+
+   | Eclipse Ent.   | USA  | Enterprise | Small Business|
+   +----------------+------+------------+---------------+
+   | GalacticCorp   | LATAM| SMB        | Upmarket      |
+   +----------------+------+------------+---------------+
+   | Starforge      | LATAM| Middle Ma. | Small Business|
+   +----------------+------+------------+---------------+
+
+---------

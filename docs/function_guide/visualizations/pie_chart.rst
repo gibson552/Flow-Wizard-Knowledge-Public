@@ -42,6 +42,6 @@ A Pie Chart visual based on the given inputs. It will generate a new tab display
    | EMEA  | 2150   |
    +-------+--------+
 
-.. image:: r'C:\Users\pajjo\Desktop\Flow-Wizard-Knowledge\source\function_guide\visualizations\images\pie_chart.png'
-   :width: 600px
+.. image:: ./images/pie_chart.png
+   :width: 1200px
    :alt: After

@@ -45,6 +45,6 @@ A Line Chart visual based on the given inputs. It will generate a new tab displa
    +------------+------+--------+
 
 
-.. image:: C:\\Users\\pajjo\\Desktop\\Flow-Wizard-Knowledge\\source\\function_guide\\visualizations\\images\\line_chart.png
-   :width: 600px
+.. image:: ./images/line_chart.png
+   :width: 1200px
    :alt: After

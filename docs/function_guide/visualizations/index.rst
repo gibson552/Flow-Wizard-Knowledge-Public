@@ -5,8 +5,8 @@ Visualization
    :maxdepth: 1
    :caption: Visualization Functions:
 
-   area_chart
-   line_chart
-   pie_chart
-   bar_chart
+   Area_Chart
+   Line_Chart
+   Pie_Chart
+   Bar_Chart
 
